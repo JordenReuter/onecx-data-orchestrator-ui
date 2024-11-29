@@ -173,7 +173,7 @@ export class CrdSearchComponent implements OnInit {
       },
       {
         id: 'touch',
-        labelKey: 'ACTIONS.DELETE.USER.TOOLTIP',
+        labelKey: 'ACTIONS.TOUCH.LABEL',
         icon: 'pi pi-refresh',
         permission: 'CRD#TOUCH',
         callback: (event) => this.onTouch(event)
